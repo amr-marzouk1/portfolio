@@ -1,0 +1,91 @@
+.contactPage {
+  min-height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#clients,
+#contact {
+  width: 80%;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactTitle {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.clientDesc,
+.contactDesc {
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 40rem;
+}
+
+.clientImgs {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.clientImg {
+  border: 1px solid gray;
+  object-fit: cover;
+  width: 23%;
+  min-width: 6rem;
+  margin: auto;
+  padding: 0.25rem;
+}
+
+.contactForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background: rgb(40, 40, 40);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.submitBtn {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.75rem 3rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+}
